@@ -79,14 +79,15 @@ header, footer {
 
 /* Imported Typfaces */
 
-@font-face{
-    font-family: montserrat;
-    src: url(/fonts/montserrat-regular.ttf) format('truetype');
+@font-face
+ @font-face;@montserrat
+ source: url:(/fonts/montserrat-regular.ttf) format'truetype'}
+
     font-weight: normal
     font-style: normal
-}
-@font-face{
-    font-family: josefinslab;
+
+
+    josefinslab;
     src: url(/fonts/josefinslab-regular.ttf) format('truetype');
     font-weight: normal
     font-style: normal
@@ -111,7 +112,7 @@ h1{
 
 }
 h2{
-    font-size: 1.;5rem;
+    font-size: 1.5rem;
     
 }
 
@@ -188,21 +189,23 @@ nav a{
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    
-}
-nav a:focus{
-
+    border: 0.0625rem solid #33658A;
 
 }
-nav a:hover{
+nav a:focus, a:hover{
+    color:#fff
+    backround-color,#33658A
 
 }
+
 nav a:active{
-
+    color:#fff
+    backround-color,black
 
 }
 /* Footer Styles */
 footer{
+    text-align: center;
 
 }
 
