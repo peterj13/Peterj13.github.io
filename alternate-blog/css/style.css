@@ -49,19 +49,20 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 /* IMPORTED TYPEFACES   */
+@font-face{
+    font-family: robotoslab;
+    src:url(../fonts/serif/robotoslab-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+   font-family: roboto;
+    src:url(../fonts/sans-serif/roboto-regular.ttf)  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-@font-face{
-    font-family: lato-regular;
-    src:url(/fonts/lato-regular.ttf) format('truetype')
-    font-weight; normal
-    font-style: normal
-}
-@font-face{
-   font-family: josefinslab;
-    src:url(/fonts/josefinslab-regular.ttf)  format('truetype');
-    font-weight: normal
-    font-style; normal
-}
+
 /* GENERAL SETUP */
 
 *  {
