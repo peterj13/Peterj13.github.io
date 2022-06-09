@@ -37,7 +37,6 @@
 
         Other
 
-
             - :nth()-child (to target specific child elements)
 
             - :focus, :hover, :active (to target link states)
@@ -152,7 +151,7 @@ p {
 }
 
 h1,h2,h3,h4 {
-    font-family: robotoslab, Arial, Helvetica, sans-serif;
+    font-family: robotoslab, Arial, sans-serif;
     letter-spacing: 0.0325rem;
 }
 
